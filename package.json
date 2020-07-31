@@ -1,7 +1,7 @@
 {
-  "name": "react-template",
-  "homepage": "https://rafiazman.github.io/react-typescript-template/",
-  "version": "0.1.0",
+  "name": "react-ts-tailwindcss-template",
+  "homepage": "https://rafiazman.github.io/react-ts-tailwindcss-template/",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
