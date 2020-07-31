@@ -2,6 +2,8 @@
 
 A simple template for React projects deployed to GitHub Pages.
 
+Improvement upon from Matteas Eden's React template found [here](https://github.com/Matteas-Eden/react-template).
+
 Includes:
 * TypeScript
 * GitHub pages build script
