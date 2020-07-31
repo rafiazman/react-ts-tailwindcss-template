@@ -33,11 +33,13 @@
     "gh-pages": "^2.1.1",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.6.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run tailwind:build &&react-scripts start",
+    "build": "npm run tailwind:build && react-scripts build",
+    "tailwind:build": "tailwind build src/tailwind.css -c tailwind.config.js -o src/index.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
